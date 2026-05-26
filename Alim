@@ -1,0 +1,12 @@
+echo "Меня зовут Alim." >> about.txt
+echo "Я работаю в Ubuntu." >> about.txt
+echo "Моя роль — студент." >> about.txt
+touch file{1..5}.txt
+mkdir backup && cp about.txt backup/
+mv file3.txt notes.txt
+rm file*.txt
+df -h > disk_info.txt
+grep -r "Linux" .
+uname -a > system_info.txt
+date >> system_info.txt
+
